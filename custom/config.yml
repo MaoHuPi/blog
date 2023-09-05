@@ -1,0 +1,75 @@
+title: 貓虎皮の部落格
+owner: 貓虎皮
+description: 一隻對貓毛過敏的貓
+language: zh-TW
+timeZone: +0800
+timeFormat: '%Y/%m/%d'
+siteUrl: https://maohupi.github.io
+
+twitter:
+  site: '@jhou5846'
+  creator: '@jhou5846'
+liker:
+  account: jhou5846
+
+iconPath: 
+  ico: image/configImage/icon.ico
+  png: image/configImage/icon.png
+
+avatarPath: image/configImage/avatar.png
+
+badges:
+  - icon: 🎛️
+    message: 編曲、混音
+  - icon: 💻
+    message: 軟體、網頁編寫
+  - icon: ✨
+    message: 圖像特效製作
+
+tabs:
+  home:
+    text: 首頁
+  about:
+    text: 關於
+    path: about.md
+  articles:
+    text: 文章
+  portfolio:
+    text: 作品
+tabsAmount: 4
+
+switches:
+  rssUrl:
+    text: 複製RSS
+  backgroundMusic:
+    text: 背景音樂
+    path: audio/休_奔.wav
+    volume: 0.5
+  darkMode:
+    text: 深色布景
+switchesAmount: 3
+
+pages: 
+  filter:
+    text: Filter
+    archives: Archives
+    categories: Categories
+    tags: Tags
+  outline:
+    text: Outline
+
+category:
+  - name: scripting
+    color:
+      bright: '#c5d7c1'
+      dark: '#608857'
+  - name: tools
+    color:
+      bright: '#c0cdd8'
+      dark: '#55738b'
+  - name: tips
+    color:
+      bright: '#d6ccc2'
+      dark: '#846d58'
+
+skinPath: image/configImage/maohupi_mcskin.png

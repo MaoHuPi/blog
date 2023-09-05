@@ -1,0 +1,38 @@
+works:
+  text: 網頁工具專案
+  data:
+    - name: 導線世界
+      link: https://maohupi.github.io/maohupiWireworldGame/
+      description: 利用Wireworld的邏輯，玩出無限可能！
+      coverPath: <?=customDirPath?>/image/portfolioCover/導線世界.jpg
+    - name: 內定座位打亂器
+      link: https://maohupi.github.io/seatRandomizer/
+      description: 將自己的座位固定，並將好友拉至身邊，討厭的同學都給我滾！
+      coverPath: <?=customDirPath?>/image/portfolioCover/內定座位打亂器.jpg
+videos:
+  text: 各式音樂專輯
+  data:
+    - name: Problem OST
+      data:
+        - name: 001 - sable
+          iframeLink: https://www.youtube.com/embed/dGvIMJY45Q4
+        - name: 002 - café
+          iframeLink: https://www.youtube.com/embed/Q-7uAJNDV1s
+        - name: 003 - commencer à grimper
+          iframeLink: https://www.youtube.com/embed/u5wXqBleud8
+    - name: Color
+      data:
+        - name: Colors
+          iframeLink: https://www.youtube.com/embed/qSlUL0qUhC8
+        - name: Red
+          iframeLink: https://www.youtube.com/embed/UpIoybeLKKQ
+        - name: Orange
+          iframeLink: https://www.youtube.com/embed/yGkKblJwqo0
+        - name: Yellow
+          iframeLink: https://www.youtube.com/embed/gS7pzg13bOA
+        - name: Green
+          iframeLink: https://www.youtube.com/embed/Sp9ZOCU2Mvg
+        - name: Blue
+          iframeLink: https://www.youtube.com/embed/u2lmXcUwJjU
+        - name: Purple
+          iframeLink: https://www.youtube.com/embed/RgdHOMF9rEk
