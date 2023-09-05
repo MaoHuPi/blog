@@ -4,7 +4,7 @@ description: 一隻對貓毛過敏的貓
 language: zh-TW
 timeZone: +0800
 timeFormat: '%Y/%m/%d'
-siteUrl: https://maohupi.github.io
+siteUrl: https://maohupi.github.io/blog
 
 twitter:
   site: '@jhou5846'
