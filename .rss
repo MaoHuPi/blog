@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>貓虎皮の部落格</title>
+	<atom:link href="https://maohupi.github.io/blog/.rss" rel="self" type="application/rss+xml" />
+	<link>https://maohupi.github.io/blog</link>
+	<description>一隻對貓毛過敏的貓</description>
+	<lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0800</lastBuildDate>
+	<language>zh-TW</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://github.com/maohupi/blogTemplate_thread</generator>
+
+	<image>
+		<url>https://maohupi.github.io/blog/public/image/logo_RSS_square_150x150.png</url>
+		<title>貓虎皮の部落格</title>
+		<link>https://maohupi.github.io/blog</link>
+		<width>32</width>
+		<height>32</height>
+	</image> 
+	
+	<item><title>Untitled</title><link>https://maohupi.github.io/blog?page=article&amp;article=knot_theory</link><dc:creator><![CDATA[貓虎皮]]></dc:creator><pubDate>Wed, 06 Sep 2023 00:00:00 +0800</pubDate><category><![CDATA[]]></category><guid isPermaLink="true">https://maohupi.github.io/blog?page=article&amp;article=knot_theory</guid><description><![CDATA[]]></description></item>
+	</channel>
+</rss>
