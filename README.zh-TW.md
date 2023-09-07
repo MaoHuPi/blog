@@ -29,10 +29,15 @@ threadSBT
 使用範例：
 
 ```bat
-python render.py -custom "custom" -update "article"
+python render.py -custom "custom" -update "all"
 ```
 
 版本更新
 ----
 
-v1.0.0 2023/09/05 初版
+* v1.0.0 2023/09/05 初版
+* v1.0.1 2023/09/07 程式複製與RSS
+	1. 新增文章內程式區塊複製功能
+	2. 修正rss無法上傳至github的問題
+	3. 修正程式區塊語言中txt與text的套色
+	4. 修改footer文字

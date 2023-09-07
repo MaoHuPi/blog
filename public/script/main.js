@@ -16,6 +16,13 @@ marked = new marked.Marked(
 	})
 );
 
+function copyCodeContent(button){
+	navigator.clipboard.writeText(button.parentElement.querySelector('code.hljs').innerText).then(
+		() => {alert('Copied code content to clipboard.')}, 
+		() => {alert('Code content copy failed, unable to write to clipboard.')}
+	);
+}
+
 var dataLoaded = () => {};
 (() => {
 	const html = document.documentElement;
@@ -68,9 +75,14 @@ var dataLoaded = () => {};
 				node.remove();
 			});
 			$$('code.hljs', container).forEach(element => {
-				var lineNumber = $e('code');
+				var lineNumber = $e('code'), 
+					copyCodeButton = $e('button');
 				lineNumber.innerHTML = new Array(element.innerText.split('\n').length - 1).fill(0).map((v, i) => (i + 1).toString()).join('\n') || '';
 				element.parentElement.insertBefore(lineNumber, element);
+				copyCodeButton.className = 'copyCodeButton';
+				copyCodeButton.innerText = 'copy';
+				copyCodeButton.setAttribute('onclick', 'copyCodeContent(this);');
+				element.parentElement.appendChild(copyCodeButton);
 				element.parentElement.className += 'codeBlock';
 			});
 			$$(':where([href], [src])', container).forEach(element => {
@@ -165,7 +177,7 @@ var dataLoaded = () => {};
 	}
 	
 	$('#rssUrlCopy').addEventListener('click', () => {
-		navigator.clipboard.writeText(`${location.origin}${location.pathname.replace(/(\/|\\).[^\/\\]*\.html/g, '')}/.rss`).then(
+		navigator.clipboard.writeText(`${location.origin}${location.pathname.replace(/(\/|\\).[^\/\\]*\.html/g, '')}/rss`).then(
 			() => {alert('Copied RSS URL to clipboard.');}, 
 			() => {alert('RSS url copy failed, unable to write to clipboard.');}
 		);

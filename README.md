@@ -32,10 +32,15 @@ The main program of this project is `render.py`, and other `Python` files can be
 Example of use:
 
 ```bat
-python render.py -custom "custom" -update "article"
+python render.py -custom "custom" -update "all"
 ```
 
 Versions
 --------
 
-v1.0.0 2023/09/05 First edition.
+* v1.0.0 2023/09/05 First edition.
+* v1.0.1 2023/09/07 Program copying and RSS.
+	1. Added the program block copy function in the article.
+	2. Fixed the problem that rss could not be uploaded to github.
+	3. Correct the color registration of txt and text in the program block language.
+	4. Modify footer text.

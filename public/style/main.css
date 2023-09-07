@@ -786,6 +786,10 @@ footer hr {
 footer p {
 	color: var(--text-color2);
 }
+footer p a {
+	color: var(--text-color2) !important;
+	pointer-events: all;
+}
 
 #slidesPlayer {
 	width: 100vw;
