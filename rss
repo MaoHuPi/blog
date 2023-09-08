@@ -9,23 +9,23 @@
 
 <channel>
 	<title>貓虎皮の部落格</title>
-	<atom:link href="https://maohupi.github.io/blog/rss" rel="self" type="application/rss+xml" />
-	<link>https://maohupi.github.io/blog</link>
+	<atom:link href="https://maohupi.github.io/rss" rel="self" type="application/rss+xml" />
+	<link>https://maohupi.github.io</link>
 	<description>一隻對貓毛過敏的貓</description>
-	<lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0800</lastBuildDate>
+	<lastBuildDate>Tue, 05 Sep 2023 00:00:00 +0800</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://github.com/maohupi/blogTemplate_thread</generator>
 
 	<image>
-		<url>https://maohupi.github.io/blog/public/image/logo_RSS_square_150x150.png</url>
+		<url>https://maohupi.github.io/public/image/logo_RSS_square_150x150.png</url>
 		<title>貓虎皮の部落格</title>
-		<link>https://maohupi.github.io/blog</link>
+		<link>https://maohupi.github.io</link>
 		<width>32</width>
 		<height>32</height>
 	</image> 
 	
-	<item><title>紐結理論</title><link>https://maohupi.github.io/blog?page=article&amp;article=knot_theory</link><dc:creator><![CDATA[貓虎皮]]></dc:creator><pubDate>Wed, 06 Sep 2023 00:00:00 +0800</pubDate><category><![CDATA[notes]]></category><guid isPermaLink="true">https://maohupi.github.io/blog?page=article&amp;article=knot_theory</guid><description><![CDATA[]]></description></item>
+	<item><title>threadSBT</title><link>https://maohupi.github.io?page=article&amp;article=threadSBT</link><dc:creator><![CDATA[貓虎皮]]></dc:creator><pubDate>Tue, 05 Sep 2023 00:00:00 +0800</pubDate><category><![CDATA[scripting]]></category><guid isPermaLink="true">https://maohupi.github.io?page=article&amp;article=threadSBT</guid><description><![CDATA[]]></description></item>
 	</channel>
 </rss>

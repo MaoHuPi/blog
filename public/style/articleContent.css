@@ -221,6 +221,9 @@ article > .content .imageBox[data-alt]::after {
 article > .content .imageBox[data-alt]:hover::after {
 	opacity: 1;
 }
+article > .content .imageBox[data-alt=""]:hover::after {
+	opacity: 0;
+}
 article > .content ol {
 }
 article > .content li {
