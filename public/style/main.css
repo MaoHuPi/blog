@@ -1,6 +1,6 @@
 * {
-	--category-colorBright: ;
-	--category-colorDark: ;
+	--category-colorBright: unset;
+	--category-colorDark: unset;
 	--category-color: var(--category-colorBright);
 	margin: 0px;
 	padding: 0px;
@@ -456,7 +456,7 @@ article.closed * {
 	cursor: pointer;
 }
 article > .cover {
-	--bgi: ;
+	--bgi: unset;
 	margin: 1vw 0px 0px 0px;
 	height: 20vw;
     width: 100%;
@@ -506,7 +506,7 @@ article.row > .info {
 	margin: 0px 0px 0.5vw 0px;
 }
 article .info > span {
-	--bgi: ;
+	--bgi: unset;
 	--backgroundSize: 1.2vw;
 	margin: 0px 1vw 0px 0px;
 	padding: 0px 0px 0px 2vw;
@@ -623,7 +623,7 @@ article > .content {
 	overflow: hidden;
 }
 .portfolioBox > div .cover {
-	--bgi: ;
+	--bgi: unset;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -732,7 +732,7 @@ article > .content {
 	margin: 1vw;
 }
 .articlePageSwitcher > * {
-	--bgi: ;
+	--bgi: unset;
 	width: 3vw;
 	height: 3vw;
 	background-color: var(--labelHovered-background);
@@ -862,9 +862,9 @@ article .likerFrame {
 	position: static;
 }
 #slidesPlayer > .box .slides {
-	--width: ;
-	--height: ;
-	--scale: ;
+	--width: unset;
+	--height: unset;
+	--scale: unset;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -901,7 +901,7 @@ article .likerFrame {
 	gap: 1vw;
 }
 #slidesThemeSelector > button {
-	--bgc: ;
+	--bgc: unset;
 	--size: 2.5vw;
 	width: var(--size);
 	height: var(--size);
@@ -912,7 +912,7 @@ article .likerFrame {
 	border-color: black;
 }
 #slidesControlButtons > button {
-	--bgi: ;
+	--bgi: unset;
 	--size: 2.5vw;
 	width: var(--size);
 	height: var(--size);
@@ -1230,6 +1230,18 @@ article .likerFrame {
 }
 #slidesPlayer :where(.language-text, .language-txt) {
 	color: #dcdfe4 !important;
+}
+
+#alerts {
+	--alert-width: 30vw;
+	--alert-height: 5vw;
+	width: calc(var(--alert-width) + 2vw);
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	pointer-events: none;
+	/* z-index: 14; */
 }
 
 #effects {

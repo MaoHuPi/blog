@@ -6,6 +6,19 @@
 
 'use strict';
 
+const alerts = $('#alerts');
+const pool_FloatAlert = [];
+function alert(content = '', type = 'compleat'){
+	// object pool
+	let usableFA = pool_FloatAlert.filter(FA => !FA.displayed)[0];
+	if(usableFA == undefined){
+		usableFA = new FloatAlert();
+		if(pool_FloatAlert.length < 5) pool_FloatAlert.push(usableFA);
+	}
+	[usableFA.content, usableFA.type] = [content, type];
+	alerts.appendChild(usableFA.display());
+}
+
 marked = new marked.Marked(
 	markedHighlight.markedHighlight({
 		langPrefix: 'hljs language-',
@@ -18,8 +31,8 @@ marked = new marked.Marked(
 
 function copyCodeContent(button){
 	navigator.clipboard.writeText(button.parentElement.querySelector('code.hljs').innerText).then(
-		() => {alert('Copied code content to clipboard.')}, 
-		() => {alert('Code content copy failed, unable to write to clipboard.')}
+		() => {alert('Copied code content to clipboard.', 'compleat')}, 
+		() => {alert('Code content copy failed, unable to write to clipboard.', 'error')}
 	);
 }
 
@@ -67,9 +80,9 @@ var dataLoaded = () => {};
 					element.className += ' notDeclare_';
 				}
 			});
-			$$('code.hljs *', container).filter(element => ['hljs-comment', 'hljs-string', 'hljs-regexp'].indexOf(element.className) === -1).map(element => [...element.childNodes]).flat().filter(node => node.tagName === undefined).forEach(node => {
+			$$('code.hljs, code.hljs *', container).filter(element => ['hljs-comment', 'hljs-string', 'hljs-regexp'].indexOf(element.className) === -1).map(element => [...element.childNodes]).flat().filter(node => node.tagName === undefined).forEach(node => {
 				var span = $e('span');
-				span.innerHTML = node.textContent.replace(/([()\[\]{}:;=+\-*/.,!<>|^&?%@~])/g, '<span class="hljs-mark">$1</span>');
+				span.innerHTML = node.textContent.replace(/([()[\]{}:;=+\-*/.,!<>|^&?%@~])/g, '<span class="hljs-mark">$1</span>');
 				node.parentElement.insertBefore(span, node);
 				node.remove();
 			});
@@ -190,8 +203,8 @@ var dataLoaded = () => {};
 	
 	$('#rssUrlCopy').addEventListener('click', () => {
 		navigator.clipboard.writeText(`${location.origin}${location.pathname.replace(/(\/|\\).[^\/\\]*\.html/g, '')}/rss`).then(
-			() => {alert('Copied RSS URL to clipboard.');}, 
-			() => {alert('RSS url copy failed, unable to write to clipboard.');}
+			() => {alert('Copied RSS URL to clipboard.', 'compleat');}, 
+			() => {alert('RSS url copy failed, unable to write to clipboard.', 'error');}
 		);
 	});
 
