@@ -61,9 +61,11 @@ Versions
 	2. Added article search function.
 	3. Added waving animation for interactive characters.
 	4. Change the documentation location.
-* v1.0.4 2023/09/10 Article running version and preview correction
-	1. Modify the copied system prompt into a floating prompt box
+* v1.0.4 2023/09/10 Article running version and preview correction.
+	1. Modify the copied system prompt into a floating prompt box.
 	2. Fixed the missing scope of label categories such as hljs-mark (caused by v1.0.2).
+* v1.0.5 2023/09/10 Improve user experience.
+	1. Fixed the problem that the article search field is empty after re-entering the page (caused by v1.0.3).
 
 TODO
 ----
@@ -72,6 +74,6 @@ TODO
 - [ ] Latex Parse.
 - [ ] slides multi-level list text function correction.
 - [ ] Related article recommendation function
-	* Analysis: Browsing? , Review (1~10)? , Like (1~5)?
+	* Analysis: Browsing? , Review (1\~10)? , Like (1\~5)?
 	* Data: tag, category, date
 - [ ] account management

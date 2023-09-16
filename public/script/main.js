@@ -130,7 +130,7 @@ var dataLoaded = () => {};
 		refreshGet();
 		main.innerHTML = '';
 		document.title = `${TITLE} - ${$_GET['page'][0].toUpperCase()}${$_GET['page'].split('').slice(1).join('')}`;
-		searchInput.value = '';
+		if(searchInput) searchInput.value = '';
 		slidesPlayerBox.innerHTML = '';
 		generatePage();
 	}

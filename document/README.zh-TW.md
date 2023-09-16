@@ -65,6 +65,8 @@ python render.py -custom "custom" -update "all"
 * v1.0.4 2023/09/10 文章跑版與預覽修正
 	1. 修改複製後的系統提示變為浮動提示框
 	2. 修正hljs-mark等標籤類別附加的範圍缺漏（由v1.0.2造成）
+* v1.0.5 2023/09/10 改善使用體驗
+	1. 修正重進頁面後文章搜尋欄位為空問題（由v1.0.3造成）
 
 待做功能
 ----
@@ -73,6 +75,6 @@ python render.py -custom "custom" -update "all"
 - [ ] Latex Parse
 - [ ] slides 多層清單文字化功能修正
 - [ ] 相關文章推薦功能
-	* 分析：瀏覽？、回顧(1~10)？、按讚(1~5)？
+	* 分析：瀏覽？、回顧(1\~10)？、按讚(1\~5)？
 	* 資料：tag、category、date
 - [ ] account management
