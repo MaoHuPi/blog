@@ -12,7 +12,7 @@
 	<atom:link href="https://maohupi.github.io/blog/rss" rel="self" type="application/rss+xml" />
 	<link>https://maohupi.github.io/blog</link>
 	<description>一隻對貓毛過敏的貓</description>
-	<lastBuildDate>Wed, 06 Sep 2023 00:00:00 +0800</lastBuildDate>
+	<lastBuildDate>Sat, 16 Sep 2023 00:00:00 +0800</lastBuildDate>
 	<language>zh-TW</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -27,5 +27,7 @@
 	</image> 
 	
 	<item><title>紐結理論</title><link>https://maohupi.github.io/blog?page=article&amp;article=knot_theory</link><dc:creator><![CDATA[貓虎皮]]></dc:creator><pubDate>Wed, 06 Sep 2023 00:00:00 +0800</pubDate><category><![CDATA[notes]]></category><guid isPermaLink="true">https://maohupi.github.io/blog?page=article&amp;article=knot_theory</guid><description><![CDATA[]]></description></item>
+	<item><title>倉頡輸入法</title><link>https://maohupi.github.io/blog?page=article&amp;article=cangjie_input_method</link><dc:creator><![CDATA[貓虎皮]]></dc:creator><pubDate>Wed, 13 Sep 2023 00:00:00 +0800</pubDate><category><![CDATA[notes]]></category><guid isPermaLink="true">https://maohupi.github.io/blog?page=article&amp;article=cangjie_input_method</guid><description><![CDATA[倉頡輸入法筆記整理]]></description></item>
+	<item><title>Web請求</title><link>https://maohupi.github.io/blog?page=article&amp;article=http_request,md</link><dc:creator><![CDATA[貓虎皮]]></dc:creator><pubDate>Sat, 16 Sep 2023 00:00:00 +0800</pubDate><category><![CDATA[notes]]></category><guid isPermaLink="true">https://maohupi.github.io/blog?page=article&amp;article=http_request,md</guid><description><![CDATA[Web請求格式與cURL基本使用]]></description></item>
 	</channel>
 </rss>
